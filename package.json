@@ -1,0 +1,32 @@
+{
+  "name": "task-xtemplate",
+  "version": "0.1.0",
+  "main": "lib/xtemplate.js",
+  "description": "KISSY XTemplate Compiler.",
+  "homepage": "https://github.com/yuanyan/task-xtemplate",
+  "bugs": "https://github.com/yuanyan/task-xtemplate/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanyan/task-xtemplate"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task"
+  ],
+  "dependencies": {
+    "execution": "^0.1.1",
+    "record": "^0.2.0",
+    "kissy-xtemplate": "^0.1.3"
+  },
+  "scripts": {
+    "test": "node test/xtemplate_test"
+  }
+}
